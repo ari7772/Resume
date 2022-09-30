@@ -1,98 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Kacuba, cv, resume">
-    <meta neme="diskription" content="это сайт резюме - Кацюба Антон">
+    <meta neme="diskription" content="это сайт резюме - Кацюбы Антона">
+    <link rel="stylesheet" href="styles.css">
     <title>Kacuba Anton resume</title>
 </head>
 <body>
 
-    <img src="avatar.jpg" alt="Кацюба Антон" width="200">
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="Кацюба Антон" class="avatar">
+                
+        <div class="info-text">
+                <h1>Кацюба Антон</h1>
+                        
+                <p>Я обучаюсь на курсе Владилена Минина, который являктся создателем 
+                <strong>Youtube канала</strong>
+                 и <strong>онлайн школы для програмирования Result Shool.</strong></p>
+                        
+                <p> Я люблю <em>путишествовать, катаюсь на горных лыжах и сноубоде, 
+                 заниматься спортом, учусь програмироваать.</em></p>
+                            
+                <h4>Список социальных сетей</h4>
 
-     
-    
-    <h1>Кацюба Антон</h1>
-    
-    <br>
+                <a href=https://https://vk.com/redboyaplee></a>Vkontakte</a>
+                |
+                <a href="https://web.telegram.org/z/"target="_blank">Telegram</a>
+        </div>
+        </div>
 
-    <p>Я обучаюсь на курсе Владилена Минина, который являктся создателем 
-    <strong>Youtube канала</strong>
-     и онлайн школы для програмирования <strong>Result Shool.</strong></p>
-     
-     <p> Я люблю <em>путишествовать, катаюсь на горных лыжах и сноубоде, 
-        заниматься спортом, учусь програмироваать.</em></p>
-        
-        <h4>Список социальных сетей</h4>
+        <div class="card bg-green">     
+             <h2>Мои хобби</h2>
 
-        <a href=https://vk.com/id43664642
-        "target="_blank">Vkontakte</a>
-        |
-        <a href="https://web.telegram.org/z//21"target="_blank">Telegram</a>
+                <ol class="list">
+                    <li>Путишествия</li>
+                    <li>Горные лыжи</li>
+                    <li>Сноу борд</li>
+                    <li>Рыбалка</li>
+                    <li>Обучение програмированию</li>
+                </ol>
+                </div>
+                <div class="card bg-red">
 
-        <h2>Мои хобби</h2>
+                    <h2>Опыт работы</h2>
+                    <table class="table">
+                        <!-- <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th>Должность</th>
+                                <th>Год</th>
+                            </tr> 
+                        </thead> -->
+                        <tbody>
+                            <tr>
+                                <td>юрист</td>
+                                <td>юрист по уголовному и административному праву</td>
+                                <td>2007 - 2014</td>
+                            </tr>
+                            <tr>
+                                <td>Админиистратор Гостинечного бизнеса</td>
+                                <td>Новосибирские сети</td>
+                                <td>2014-2017</td>
+                            </tr>
+                                <td>ВЧ 28337</td>
+                                <td>Военнослужащий</td>
+                                <td>2018 - по настоящее время</td>
+                            </div>
+                        </tbody>
+                    </table>
+                </div>
+                    
+                <div class="card bg-yellow">
+                    <h2>Мои курсы</h2>
 
-        <ol>
-            <li>Путишествия</li>
-            <li>Горные лыжи</li>
-            <li>Сноу борд</li>
-            <li>Рыбалка</li>
-            <li>Обучение програмированиюд</li>
+                    <ul class="Link-list">
+                        <li>
+                            <a href="https://vk.com/redboyaplee">Получение профессии Frontend Разработчика</a>
+                        </li>
+                        <li>
+                            <a href="https://vladilen.ru/courses">Все курсы</a>
+                        </li>
+                    </ul>
+                </div>
 
-        </ol>
-        <h2>Опыт работы</h2>
+                                     
+                    <form action="/" class="form">
+                        <h2>Связаться со мной</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr> 
-            </thead>
-            <tbady>
-                <tr>
-                    <td>юрист</td>
-                    <td>юрист по уголовному и административному праву</td>
-                    <td>2007 - 2014</td>
-                </tr>
-                <tr>
-                    <td>Админиистратор Гостинечного бизнеса</td>
-                    <td>Новосибирские сети</td>
-                    <td>2014-2017</td>
-                </tr>
-                    <td>ВЧ 28337</td>
-                    <td>Военнослужащий</td>
-                    <td>2018 - по настоящее время</td>
-            </tbady>
-        </table>
-        <h2>Связаться со мной</h2>
-        
-        <form action="/">
-            <div>
-                <label for="name">Ваше имя</label>
-                <input type="text" id="name" placeholder="Введите имя">
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" 
+                                placeholder="Введите имя">
+                            </div>
+
+                            <div class="form-group>
+                                <label for="email">Ваш email:</label>
+                                <input type="email" id="email" 
+                                placeholder="Введите email">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group>
+                            <label for="message">Ваше сообщение:</label>
+                            <textarea id="messenge" cols="20"
+                            rows="5" placeholder="Введите сообщение..."></textarea>
+                        </div>
+                        
+                        <input class="btn" type="submit"
+                        value="Отправить!">
+                    </form>
+                </div>
             </div>
 
-            <div>
-                <label for="email">Ваш email:</label>
-                <input type="email" id="email" placeholder="Введите email">
-            </div>
-            
-            <div>
-                <label for="message">Ваше сообщение:</label>
-                <br>
-                <textarea id="messenge" cols="20"
-                rows="5" placeholder="Введите сообщение..."></textarea>
-            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
-            <imput type="submit" value="Отправить!">
-        </form>
-
-
-
+        </div>
     
-</body>
-</html>
+    </body>
+    </body>
+    </html>
