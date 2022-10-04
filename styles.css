@@ -3,8 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    background: #706d87;
-    color: #0f141e;
+    background: #8d88b0;
+    color: #000;
     }
 
 a {
@@ -12,17 +12,18 @@ a {
     text-decoration: none;
   }
 
+a:visited {
+    color: red;
+}
 a:hover {
     text-decoration: underline;
     }
 
 a:active {
-    color: rgb(168, 168, 218);
+    color: rgb(22, 22, 21);
 }
     
-a:visited {
-    color: yellowgreen;
-}
+
 
 img {
     width: 200px;
@@ -30,7 +31,7 @@ img {
     border-radius: 28px;
     }
 @media(max-vidth: 750px) {
-.box{
+.box {
     display: block;
     text-align: center;
     }
@@ -60,13 +61,15 @@ img {
 .info-text p {
     font-style: italic;
     font-weight: bold;
-    color: rgb(150, 78, 110);
+    color: rgb(17, 15, 24);
     margin: 0;
 }
 
 .info-text h4 {
 margin-bottom: 10px;    
 }
+
+
 @media (max-width: 650px ) {
     .info {
         display: block;
@@ -86,14 +89,14 @@ margin-bottom: 10px;
 
 
 .bg-yellow {
-    background: #fff9dc;
+    background: #fdf8e1;
 }
 .bg-red {
-    background: #ffe5e5;
+    background: #ffe6e6;
 }
 
 .bg-green {
-    background: #e5ffe7;
+    background: #e3ffe6;
 }
 .btn{
     background: #111;
@@ -107,17 +110,21 @@ margin-bottom: 10px;
     opacity: .8;
 }
 
+
 .list {
     padding: 0 20px;
 }
+
 .list li {
-    color: #86898f;
+    color: #3e3f40;
     margin-bottom: 10px;
 }
+
 .link-list {
     List-style: none;
     padding: 0;
 }
+
 .link-list li {
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -127,13 +134,14 @@ margin-bottom: 10px;
 .table {
     width: 100%;
 }
+
 .table td {
     padding-bottom: 10px;
 }
 
 .table td:nth-child(2),
 .table td:nth-child(3) {
-  color: #cdd2de;
+  color: #75777b;
 }
 
 .form h2 {
@@ -147,20 +155,20 @@ margin-bottom: 10px;
 
 .form-row .form-group {
     margin-right:20px;
-    width: 50%;
+    width: 46%;
     /* width: calc(50% - 20px); */
 }
 
-.form-row .form-group: last-child {
+.form-row .form-group:last-child {
     margin-right: 0;
 }
+
 
 @media (max-width: 650px) {
     .form-row{
     display: block;
     }
-    
-    .form-row .form-group {
+       .form-row .form-group {
         width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
@@ -173,8 +181,8 @@ margin-bottom: 10px;
     color: #86898f;
 }
 
-.form-group imput,
-.form-group texterea {
+.form-group input,
+.form-group textarea {
     width: 100%;
     box-sizing: border-box;
     border: none;
