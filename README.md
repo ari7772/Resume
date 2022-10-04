@@ -2,4 +2,4 @@
 
 ##Результат вы можете посмотреть тут:
 
-{Моя первая работа на HTML & CSS}(https://ari7772.github.io/Resume/)
+<a href="https://ari7772.github.io/Resume/">Моя первая работа на HTML и CSS</a>
